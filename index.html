@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Result</title>
+  <link rel="shortcut icon" href="/" type="image/x-icon">
+  <script src="./html2canvas.min.js" defer></script>
+  
+  <style>
+    @charset "UTF-8";
+    @font-face {
+      font-family: "ONE Mobile POP";
+      src: url("./assets/font/ONE Mobile POP.ttf");
+    }
+    @font-face {
+      font-family: "NEXON Lv1 Gothic Regular";
+      src: url("./assets/font/NEXONLv1GothicRegular.ttf");
+    }
+    @font-face {
+      font-family: "NEXON Lv1 Gothic Bold";
+      src: url("./assets/font/NEXONLv1GothicBold.ttf");
+    }
+    :root {
+      --c0: rgb(143, 202, 255);
+      --c1: rgb(55, 160, 255);
+      --c2: rgb(255, 143, 186);
+      --c3: rgb(255, 189, 214);
+      --c4: rgb(217, 217, 217);
+      --c5: rgb(100, 100, 100);
+    }
+    * {
+      font-family: "ONE Mobile POP";
+      box-sizing: border-box;
+    }
+    body {
+      background-color: gray;
+    }
+    .main {
+      overflow: hidden;
+      width: fit-content;
+    }
+    .main > *:not(:last-child) {
+      margin-bottom: 20px;
+    }
+    .a {
+      display: grid;
+      position: relative;
+      align-items: flex-start;
+      justify-content: flex-start;
+      overflow: hidden;
+      width: 1000px;
+      height: max-content;
+      grid-template-columns: 140px 860px;
+    }
+    .l {
+      display: flex;
+      position: relative;
+      align-items: center;
+      justify-content: flex-start;
+      flex-direction: column;
+      padding: 30px 20px;
+      width: 140px;
+      height: 100%;
+      border-radius: 20px 0 0 20px;
+    }
+    .l > *:not(:last-child) {
+      margin-bottom: 10px;
+    }
+    .l > img {
+      width: 64px;
+    }
+    .al-f0 {
+      background-color: var(--c0);
+    }
+    .al-f0 > .al-sty {
+      color: var(--c0);
+    }
+    .al-f0+.r .d0, .al-f0+.r .d2 {
+      background-color: var(--c0);
+    }
+    .al-f0+.r .dbar {
+      background-color: var(--c1);
+    }
+    .al-f1 {
+      background-color: var(--c2);
+    }
+    .al-f1 > .al-sty {
+      color: var(--c2);
+    }
+    .al-f1+.r .d0, .al-f1+.r .d2 {
+      background-color: var(--c2);
+    }
+    .al-f1+.r .dbar {
+      background-color: var(--c3);
+    }
+    .al-f2 {
+      background-color: var(--c4);
+    }
+    .al-f2 > .al-sty {
+      color: var(--c4);
+    }
+    .al-f2+.r .d0, .al-f2+.r .d2 {
+      background-color: var(--c4);
+    }
+    .al-f2+.r .d3 {
+      background-color: var(--c3);
+    }
+    .al-f2+.r .dbar {
+      background-color: var(--c1);
+    }
+    .al-sty {
+      width: 100%;
+      line-height: 40px;
+      text-align: center;
+      background-color: black;
+      border-radius: 5px;
+    }
+    .al-stt {
+      font-size: 24pt;
+    }
+    .al-spd {
+      font-family: "NEXON Lv1 Gothic Bold";
+      font-size: 14pt;
+      text-align: center;
+    }
+    .al-spd > span {
+      font-family: "NEXON Lv1 Gothic Regular";
+      font-size: 10pt;
+    }
+    .r {
+      display: flex;
+      position: relative;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-direction: column;
+      padding: 30px;
+      flex: 1;
+      width: 100%;
+      height: max-content;
+      border-radius: 0 20px 20px 0;
+      background-color: white;
+    }
+    .r > *:not(:last-child) {
+      margin-bottom: 4px;
+    }
+    .ar-sde {
+      font-family: "NEXON Lv1 Gothic Regular";
+      font-size: 10pt;
+      color: var(--c5);
+    }
+    .d {
+      display: flex;
+      position: relative;
+      align-items: flex-start;
+      justify-content: flex-start;
+      width: 100%;
+      height: 64px;
+    }
+    .d0 {
+      width: 45px;
+      line-height: 64px;
+      font-family: "NEXON Lv1 Gothic Bold";
+      font-size: 18pt;
+      text-align: center;
+    }
+    .d1 {
+      background-color: white;
+    }
+    .d1, .d1 > img {
+      width: 64px;
+      height: 64px;
+    }
+    .d2 {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding: 0 10px;
+      width: 200px;
+      height: 100%;
+      font-size: 18pt;
+    }
+    .d2 > span {
+      font-family: "NEXON Lv1 Gothic Regular";
+      font-size: 12pt;
+    }
+    .d3 {
+      display: flex;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+      width: 100%;
+      height: 100%;
+      background-color: white;
+    }
+    .d3 > span {
+      display: flex;
+      position: absolute;
+      align-items: center;
+      padding: 10px;
+      height: 100%;
+      font-family: "NEXON Lv1 Gothic Bold";
+      font-size: 18pt;
+    }
+    .dbar {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+    }
+    .d3 img {
+      position: absolute;
+      z-index: 2;
+
+      height: 100%;
+    }
+    .dbsl {
+      left: 0;
+    }
+    .dbsr {
+      right: 0;
+    }
+    .ar-sch {
+      height: 19px;
+      line-height: 19px;
+
+      margin-left: 320px;
+      font-family: "NEXON Lv1 Gothic Regular";
+      font-size: 10pt;
+      color: var(--c5);
+    }
+  </style>
+</head>
+<body>
+  <button onclick="save();">출력</button>
+  <script defer>
+    (async () => {
+      // 제외 항목 배열 정리
+      const blacklist = [
+        "race.unknown",
+        "char.kommyswim",
+        "char.nata",
+        "char.renewa",
+        "char.gloveai",
+        "char.player",
+        "char.youngchun",
+        "char.guest"
+      ];
+
+      // 데이터 파일 페치 후 필요 데이터만 추출해 목록으로 정리
+      // racedata = https://acherium.github.io/trickcal-chardata/trace-all.json
+      // personadata = https://acherium.github.io/trickcal-chardata/tpersona-all.json
+      // chardata = https://acherium.github.io/trickcal-chardata/tchar-all-min.json
+      const racedata = await fetch("./data/trace-all.json").then((res) => {
+        if (!res.ok) throw Error(`FATAL :: racedata를 불러올 수 없습니다@${res.status}`);
+        console.log(`OK :: racedata를 불러왔습니다@${res.status}`);
+        return res.text();
+      }).then((val) => JSON.parse(val));
+      const personadata = await fetch("./data/tpersona-all.json").then((res) => {
+        if (!res.ok) throw Error(`FATAL :: personadata를 불러올 수 없습니다@${res.status}`);
+        console.log(`OK :: personadata를 불러왔습니다@${res.status}`);
+        return res.text();
+      }).then((val) => JSON.parse(val));
+      const chardata = await fetch("./data/tchar-all-min.json").then((res) => {
+        if (!res.ok) throw Error(`FATAL :: chardata를 불러올 수 없습니다@${res.status}`);
+        console.log(`OK :: chardata를 불러왔습니다@${res.status}`);
+        return res.text();
+      }).then((val) => JSON.parse(val));
+      const race = Object.fromEntries(Object.keys(racedata).filter((x) => !blacklist.includes(x)).map((x) => [ x, {
+        key: x,
+        type: "race",
+        name: racedata[x].name
+      } ]));
+      const persona = Object.fromEntries(Object.keys(personadata).filter((x) => !blacklist.includes(x)).map((x) => [ x, {
+        key: x,
+        type: "persona",
+        name: personadata[x].name
+      } ]));
+      const char = Object.fromEntries(Object.keys(chardata).filter((x) => !blacklist.includes(x)).map((x) => [ x, {
+        key: x,
+        type: "char",
+        name: chardata[x].name,
+        race: chardata[x].data.race,
+        persona: chardata[x].data.persona,
+        rank: (chardata[x].data.rank || null)
+      } ]));
+      const totdata = Object.assign(Object.assign(race, persona), char);
+
+      // 종합 대상 결과파일(구글 폼 csv 원본) 목록 정리
+      // Upvote = 호감도 조사
+      // Downvote = 비호감도 조사
+      const csvUpvoteDir = [
+        "example0.csv",
+        "example1.csv"
+      ];
+      const csvDownvoteDir = [
+        "example0.csv"
+      ];
+
+      // 결과 1차 종합 - 줄바꿈으로 결과지 분리, 필요 데이터만 추출한 후 csvUpvote, csvDownvote 배열에 저장 - 결과지 단위
+      const csvUpvote = [];
+      const csvDownvote = [];
+      for (const x of csvUpvoteDir) {
+        // 줄바꿈 기준으로 결과지 각각 분리
+        const raw = await fetch(`./poll/${x}`).then((res) => res.text()).then((val) => val.split(/([\n\r]){1,2}/g));
+        // 결과지 컬럼 헤더 제거
+        raw.shift();
+        // 결과지 앞뒤의 개행, 공백문자 제거 후 배열에 결과지 저장
+        const res = raw.map((x) => x.trim()).filter((x) => x.length);
+        for (const y of res) {
+          csvUpvote.push(y);
+          console.log(`OK :: 결과지를 저장했습니다 > ${y}@csvUpvote`);
+        };
+      };
+      for (const x of csvDownvoteDir) {
+        const raw = await fetch(`./poll/${x}`).then((res) => res.text()).then((val) => val.split(/([\n\r]){1,2}/g));
+        raw.shift();
+        const res = raw.map((x) => x.trim()).filter((x) => x.length);
+        for (const y of res) {
+          csvDownvote.push(y);
+          console.log(`OK :: 결과지를 저장했습니다 > ${y}@csvDownvote`);
+        };
+      };
+
+      // 최종 결과 종합을 위한 객체 정리
+      const pollres = {
+        // 전체 결과 정리용
+        master: {
+          voters: {
+            upvote: 0,
+            downvote: 0
+          }
+        },
+        // 단위별 결과 종합 및 규칙 정리
+        data: {
+          "race": {
+            key: "race",
+            name: "종족",
+            icon: null,
+            condition: (x) => (x.type === "race"),
+            voters: {
+              upvote: 0,
+              downvote: 0
+            },
+            cast: {
+              upvote: 0,
+              downvote: 0
+            },
+            perc: {
+              upvote: 0,
+              downvote: 0
+            },
+            data: {}
+          },
+          "race.dragon": {
+            key: "race.dragon",
+            name: "용족",
+            icon: "race.dragon",
+            condition: (x) => (x.type === "char" && x.rank !== 1 && x.race === "race.dragon"),
+            voters: {
+              upvote: 0,
+              downvote: 0
+            },
+            cast: {
+              upvote: 0,
+              downvote: 0
+            },
+            perc: {
+              upvote: 0,
+              downvote: 0
+            },
+            data: {}
+          },
+          "race.elf": {
+            key: "race.elf",
+            name: "엘프",
+            icon: "race.elf",
+            condition: (x) => (x.type === "char" && x.rank !== 1 && x.race === "race.elf"),
+            voters: {
+              upvote: 0,
+              downvote: 0
+            },
+            cast: {
+              upvote: 0,
+              downvote: 0
+            },
+            perc: {
+              upvote: 0,
+              downvote: 0
+            },
+            data: {}
+          },
+          "race.fairy": {
+            key: "race.fairy",
+            name: "요정",
+            icon: "race.fairy",
+            condition: (x) => (x.type === "char" && x.rank !== 1 && x.race === "race.fairy"),
+            voters: {
+              upvote: 0,
+              downvote: 0
+            },
+            cast: {
+              upvote: 0,
+              downvote: 0
+            },
+            perc: {
+              upvote: 0,
+              downvote: 0
+            },
+            data: {}
+          },
+          "race.furry": {
+            key: "race.furry",
+            name: "수인",
+            icon: "race.furry",
+            condition: (x) => (x.type === "char" && x.rank !== 1 && x.race === "race.furry"),
+            voters: {
+              upvote: 0,
+              downvote: 0
+            },
+            cast: {
+              upvote: 0,
+              downvote: 0
+            },
+            perc: {
+              upvote: 0,
+              downvote: 0
+            },
+            data: {}
+          },
+          "race.ghost": {
+            key: "race.ghost",
+            name: "유령",
+            icon: "race.ghost",
+            condition: (x) => (x.type === "char" && x.rank !== 1 && x.race === "race.ghost"),
+            voters: {
+              upvote: 0,
+              downvote: 0
+            },
+            cast: {
+              upvote: 0,
+              downvote: 0
+            },
+            perc: {
+              upvote: 0,
+              downvote: 0
+            },
+            data: {}
+          },
+          "race.spirit": {
+            key: "race.spirit",
+            name: "정령",
+            icon: "race.spirit",
+            condition: (x) => (x.type === "char" && x.rank !== 1 && x.race === "race.spirit"),
+            voters: {
+              upvote: 0,
+              downvote: 0
+            },
+            cast: {
+              upvote: 0,
+              downvote: 0
+            },
+            perc: {
+              upvote: 0,
+              downvote: 0
+            },
+            data: {}
+          },
+          "race.witch": {
+            key: "race.witch",
+            name: "마녀",
+            icon: "race.witch",
+            condition: (x) => (x.type === "char" && x.rank !== 1 && x.race === "race.witch"),
+            voters: {
+              upvote: 0,
+              downvote: 0
+            },
+            cast: {
+              upvote: 0,
+              downvote: 0
+            },
+            perc: {
+              upvote: 0,
+              downvote: 0
+            },
+            data: {}
+          },
+          "xmisc.onestar": {
+            key: "xmisc.onestar",
+            name: "1성사도",
+            icon: null,
+            condition: (x) => (x.type === "char" && x.rank === 1),
+            voters: {
+              upvote: 0,
+              downvote: 0
+            },
+            cast: {
+              upvote: 0,
+              downvote: 0
+            },
+            perc: {
+              upvote: 0,
+              downvote: 0
+            },
+            data: {}
+          }
+        }
+      };
+      // 규칙에 따라 결과 종합용 객체에 투표 대상 초기화
+      for (const x of Object.values(totdata).sort((a, b) => a.type > b.type || a.key > b.key)) {
+        for (const y of Object.values(pollres.data)) {
+          if (y.condition(x)) {
+            y.data[x.key] = {
+              key: x.key,
+              name: x.name,
+              icon: x.key,
+              cast: {
+                upvote: 0,
+                downvote: 0
+              },
+              result: {
+                upvote: {
+                  perc: 0,
+                  sliderPerc: 0,
+                  diffCast: null,
+                  diffPerc: null
+                },
+                downvote: {
+                  perc: 0,
+                  sliderPerc: 0,
+                  diffCast: null,
+                  diffPerc: null
+                },
+                diff: {
+                  upvote: 0,
+                  downvote: 0
+                }
+              }
+            };
+            console.log(`OK :: 결과지 초기화를 완료했습니다 > ${x.key}@${y.key} in pollres.data`);
+          };
+        };
+      };
+
+      // 결과 2차 종합 - 결과지 단위로 저장된 값을 원소 단위의 결과로 분리 후 upvote, downvote 배열에 저장 - 결과 단위
+      const upvote = [];
+      const downvote = [];
+      for (const x of csvUpvote) {
+        // 전체 투표인수에 1 추가
+        pollres.master.voters.upvote++;
+        console.log(`OK :: 투표인수를 추가했습니다 > master@downvote<${pollres.master.voters.upvote}`);
+        // 항목별 투표인수 종합을 위한 객체 초기화
+        const flags = Object.fromEntries(Object.keys(pollres.data).map((y) => [ y, false ]));
+        // 결과지 분해 후 세부정보와 함께 upvote 배열에 저장
+        for (const y of x.split(",")) {
+          for (let z of y.split(";")) {
+            z = z.trim().replace(/"/g, "");
+            // totdata 항목에 z 이름의 키값이 없으면 비정상 결과로 판단하여 결과에서 제외함
+            if (!Object.values(totdata).map((a) => a.name.ko).includes(z)) {
+              console.log(`WARN :: 결과가 제외되었습니다 > ${z}@upvote`);
+              continue;
+            };
+            const res = JSON.parse(JSON.stringify(Object.values(totdata).find((a) => a.name.ko === z)));
+            res.vote = "upvote";
+            upvote.push(res);
+            // 항목별 투표인수 가수 여부 플래그 속성 설정
+            for (const a of Object.keys(flags)) {
+              if (pollres.data[a].condition(res) && !flags[a]) {
+                flags[a] = true;
+                console.log(`OK :: 투표인수 플래그 변수를 설정했습니다 > ${res.key}@${a}#${res.vote}<true`);
+              };
+            };
+          };
+        };
+        // 항목별 투표인수 종합 - 참이면 1 추가
+        for (const y in flags) {
+          pollres.data[y].voters.upvote++;
+          console.log(`OK :: 투표인수를 추가했습니다 > ${y}@upvote<${pollres.data[y].voters.upvote}`);
+        };
+      };
+      for (const x of csvDownvote) {
+        pollres.master.voters.downvote++;
+        console.log(`OK :: 투표인수를 추가했습니다 > master@downvote<${pollres.master.voters.downvote}`);
+        const flags = Object.fromEntries(Object.keys(pollres.data).map((y) => [ y, false ]));
+        for (const y of x.split(",")) {
+          for (let z of y.split(";")) {
+            z = z.trim().replace(/"/g, "");
+            if (!Object.values(totdata).map((a) => a.name.ko).includes(z)) {
+              console.log(`WARN :: 결과가 제외되었습니다 > ${z}@downvote`);
+              continue;
+            };
+            const res = JSON.parse(JSON.stringify(Object.values(totdata).find((a) => a.name.ko === z)));
+            res.vote = "downvote";
+            downvote.push(res);
+            for (const a of Object.keys(flags)) {
+              if (pollres.data[a].condition(res) && !flags[a]) {
+                flags[a] = true;
+                console.log(`OK :: 투표인수 플래그 변수를 설정했습니다 > ${res.key}@${a}#${res.vote}<true`);
+              };
+            };
+          };
+        };
+        // 항목별 투표인수 종합 - 참이면 1 추가
+        for (const y in flags) {
+          pollres.data[y].voters.downvote++;
+          console.log(`OK :: 투표인수를 추가했습니다 > ${y}@downvote<${pollres.data[y].voters.downvote}`);
+        };
+      };
+
+      // 전체 결과 처리
+      for (const x of upvote) {
+        for (const y of Object.values(pollres.data)) {
+          if (y.condition(x)) {
+            y.cast[x.vote]++;
+            y.data[x.key].cast[x.vote]++
+            console.log(`OK :: 결과가 등록되었습니다 > ${x.key}@${y.key}#${x.vote}`);
+          };
+        };
+      };
+      for (const x of downvote) {
+        for (const y of Object.values(pollres.data)) {
+          if (y.condition(x)) {
+            y.cast[x.vote]++;
+            y.data[x.key].cast[x.vote]++
+            console.log(`OK :: 결과가 등록되었습니다 > ${x.key}@${y.key}#${x.vote}`);
+          };
+        };
+      };
+
+      // 출력 전 최종 결과 처리
+      for (const x of Object.values(pollres.data)) {
+        // 항목 참여율 계산
+        x.perc.upvote = x.voters.upvote / pollres.master.voters.upvote * 100;
+        x.perc.downvote = x.voters.downvote / pollres.master.voters.downvote * 100;
+        for (const y of Object.values(x.data)) {
+          // 득표율 계산
+          y.result.upvote.perc = y.cast.upvote / x.cast.upvote * 100;
+          y.result.downvote.perc = y.cast.downvote / x.cast.downvote * 100;
+          // 비율 계산
+          y.result.diff.upvote = y.result.upvote.perc / (y.result.upvote.perc + y.result.downvote.perc) * 100;
+          y.result.diff.downvote = y.result.downvote.perc / (y.result.upvote.perc + y.result.downvote.perc) * 100;
+          if (isNaN(y.result.diff.upvote)) y.result.diff.upvote = 0;
+          if (isNaN(y.result.diff.downvote)) y.result.diff.downvote = 0;
+        };
+        // 최대값 저장
+        const upvoteMax = Object.values(x.data).map((y) => y.cast.upvote).reduce((a, b) => Math.max(a, b), -Infinity);
+        const downvoteMax = Object.values(x.data).map((y) => y.cast.downvote).reduce((a, b) => Math.max(a, b), -Infinity);
+        const sorted = Object.values(x.data).sort((a, b) => a.cast.upvote < b.cast.upvote);
+        for (let y in sorted) {
+          y = parseInt(y);
+          const res = sorted[y];
+          // 표시되는 게이지 퍼센트 계산
+          res.result.upvote.sliderPerc = res.cast.upvote / upvoteMax * 100;
+          res.result.downvote.sliderPerc = res.cast.downvote / downvoteMax * 100;
+          // 다음 등수와의 표차 계산
+          const next = sorted[y+1];
+          if (typeof next !== "undefined") {
+            res.result.upvote.diffCast = Math.abs(res.cast.upvote - next.cast.upvote);
+            res.result.upvote.diffPerc = Math.abs(res.result.upvote.perc - next.result.upvote.perc);
+            res.result.downvote.diffCast = Math.abs(res.cast.downvote - next.cast.downvote);
+          };
+        };
+      };
+
+      // 출력
+      for (const i in Object.values(pollres.data)) {
+        // 노드 초기화
+        const x = Object.values(pollres.data)[i];
+        const div = document.createElement("div");
+        div.className = "main";
+        div.dataset.name = `${i}-${x.name}`;
+        const divUpvote = document.createElement("div");
+        divUpvote.className = "a";
+        divUpvote.dataset.name = `${i}-${x.name}-0-호감`;
+        const divDownvote = document.createElement("div");
+        divDownvote.className = "a";
+        divDownvote.dataset.name = `${i}-${x.name}-1-비호감`;
+        const divDiff = document.createElement("div");
+        divDiff.className = "a";
+        divDiff.dataset.name = `${i}-${x.name}-2-비율`;
+
+        // 내용 변수 정의
+        let resUpvote = "";
+        let resDownvote = "";
+        let resDiff = "";
+
+        // 최종 결과 배열 정의
+        const finalUpvote = Object.keys(x.data).sort((a, b) => x.data[a].cast.upvote < x.data[b].cast.upvote);
+        const finalDownvote = Object.keys(x.data).sort((a, b) => x.data[a].cast.downvote < x.data[b].cast.downvote);
+        const finalDiff = Object.keys(x.data).sort((a, b) => x.data[a].result.diff.upvote < x.data[b].result.diff.upvote);
+        // console.log(finalDiff.map((y) => x.data[y].result.diff.upvote));
+
+        // 내용 정리
+        resUpvote += `<div class="l al-f0"><span class="al-sty">호감</span>` +
+          (x.icon ? `<img src="./assets/images/${x.icon}.png" alt="${x.icon}">` : "") +
+          `<span class="al-stt">${x.name}</span>` +
+          `<span class="al-spd">총 ${x.cast.upvote}표<br><span>참여자 ${x.voters.upvote}<br>투표율 ${Math.round(x.perc.upvote * 10)/10}%</span></span>` +
+          `</div><div class="r"><span class="ar-sde">득표가 많을수록 긍정적</span>`;
+        for (const j in finalUpvote) {
+          const y = x.data[finalUpvote[j]];
+          resUpvote += `<div class="d"><div class="d0">${j+1}</div>` +
+            `<div class="d1"><img src="./assets/images/${y.icon}.png" alt="${y.icon}"></div>` +
+            `<div class="d2">${y.name.ko}<span>${y.name.en}</span></div>` +
+            `<div class="d3"><div class="dbar" style="width:${y.result.upvote.sliderPerc}%"></div>` +
+            `<span class="dbsl">${y.cast.upvote}표 (${Math.round(y.result.upvote.perc*10)/10}%)</span></div></div>`;
+          if (y.result.upvote.diffCast !== null) {
+            resUpvote += `<div class="ar-sch">${y.result.upvote.diffCast > 0 ? `⇵ ${y.result.upvote.diffCast}표 (${Math.round(y.result.upvote.diffPerc*10)/10}%p)` : "&nbsp;"}</div>`;
+          };
+        };
+        resUpvote += "</div>";
+        
+        resDownvote += `<div class="l al-f1"><span class="al-sty">비호감</span>` +
+          (x.icon ? `<img src="./assets/images/${x.icon}.png" alt="${x.icon}">` : "") +
+          `<span class="al-stt">${x.name}</span>` +
+          `<span class="al-spd">총 ${x.cast.downvote}표<br><span>참여자 ${x.voters.downvote}<br>투표율 ${Math.round(x.perc.downvote * 10)/10}%</span></span>` +
+          `</div><div class="r"><span class="ar-sde">득표가 많을수록 부정적</span>`;
+        for (const j in finalDownvote) {
+          const y = x.data[finalDownvote[j]];
+          resDownvote += `<div class="d"><div class="d0">${j+1}</div>` +
+            `<div class="d1"><img src="./assets/images/${y.icon}.png" alt="${y.icon}"></div>` +
+            `<div class="d2">${y.name.ko}<span>${y.name.en}</span></div>` +
+            `<div class="d3"><div class="dbar" style="width:${y.result.downvote.sliderPerc}%"></div>` +
+            `<span class="dbsl">${y.cast.downvote}표 (${Math.round(y.result.downvote.perc*10)/10}%)</span></div></div>`;
+          if (y.result.downvote.diffCast !== null) {
+            resDownvote += `<div class="ar-sch">${y.result.downvote.diffCast > 0 ? `⇵ ${y.result.downvote.diffCast}표 (${Math.round(y.result.downvote.diffPerc*10)/10}%p)` : "&nbsp;"}</div>`;
+          };
+        };
+        resDownvote += "</div>";
+
+        resDiff += `<div class="l al-f2"><span class="al-sty">비율</span>` +
+          (x.icon ? `<img src="./assets/images/${x.icon}.png" alt="${x.icon}">` : "") +
+          `<span class="al-stt">${x.name}</span>` +
+          `</div><div class="r"><span class="ar-sde">파란색이 호감, 분홍색이 비호감</span>`;
+        for (const j in finalDiff) {
+          const y = x.data[finalDiff[j]];
+          resDiff += `<div class="d"><div class="d0">${j+1}</div>` +
+            `<div class="d1"><img src="./assets/images/${y.icon}.png" alt="${y.icon}"></div>` +
+            `<div class="d2">${y.name.ko}<span>${y.name.en}</span></div>` +
+            `<div class="d3"><div class="dbar" style="width:${y.result.diff.upvote}%"></div>` +
+            `<span class="dbsl">${(y.result.diff.upvote > 0) ? Math.round(y.result.diff.upvote*10)/10 : ""}</span>` +
+            `<span class="dbsr">${(y.result.diff.downvote > 0) ? Math.round(y.result.diff.downvote*10)/10 : ""}</span>` +
+            `<img src="./assets/misc/arrow${(y.result.diff.upvote > y.result.diff.downvote) ? "0" : "1"}.svg" alt=""></div></div>` +
+            (j < (finalDiff.length - 1) ? `<div class="ar-sch">&nbsp;</div>` : "");
+        };
+        resDiff += `</div>`;
+
+        // 내용 변수 적용
+        divUpvote.innerHTML = resUpvote;
+        divDownvote.innerHTML = resDownvote;
+        divDiff.innerHTML = resDiff;
+
+        // 본문에 첨부
+        div.append(divUpvote);
+        div.append(divDownvote);
+        div.append(divDiff);
+        document.body.append(div);
+        console.log(`OK :: 노드를 생성했습니다 > ${div.dataset.name}@document`);
+      };
+    })();
+
+    // 이미지로 저장하는 함수
+    const save = () => {
+      const a = document.querySelectorAll("div.main");
+      Array.from(a).forEach((x, i) => {
+        html2canvas(x, { scale: 2, backgroundColor: null }).then((c) => {
+          const l = document.createElement("a");
+          document.body.append(l);
+          l.href = c.toDataURL("image/png");
+          const filename = x.dataset.name;
+          l.download = `${filename}.png`;
+          l.click();
+          l.remove();
+        });
+      });
+    };
+  </script>
+</body>
+</html>

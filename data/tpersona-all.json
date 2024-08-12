@@ -1,0 +1,47 @@
+{
+  "persona.cool": {
+    "id": "persona.cool",
+    "name": {
+      "ko": "냉정",
+      "en": "Cool",
+      "jp": null,
+      "zh": null
+    }
+  },
+  "persona.gloomy": {
+    "id": "persona.gloomy",
+    "name": {
+      "ko": "우울",
+      "en": "Gloomy",
+      "jp": null,
+      "zh": null
+    }
+  },
+  "persona.jolly": {
+    "id": "persona.jolly",
+    "name": {
+      "ko": "활발",
+      "en": "Jolly",
+      "jp": null,
+      "zh": null
+    }
+  },
+  "persona.mad": {
+    "id": "persona.mad",
+    "name": {
+      "ko": "광기",
+      "en": "Mad",
+      "jp": null,
+      "zh": null
+    }
+  },
+  "persona.naive": {
+    "id": "persona.naive",
+    "name": {
+      "ko": "순수",
+      "en": "Naive",
+      "jp": null,
+      "zh": null
+    }
+  }
+}

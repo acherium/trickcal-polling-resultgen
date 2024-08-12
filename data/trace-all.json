@@ -1,0 +1,74 @@
+{
+  "race.fairy": {
+    "id": "race.fairy",
+    "name": {
+      "ko": "요정",
+      "en": "Fairy",
+      "jp": null,
+      "zh": null
+    }
+  },
+  "race.furry": {
+    "id": "race.furry",
+    "name": {
+      "ko": "수인",
+      "en": "Furry",
+      "jp": null,
+      "zh": null
+    }
+  },
+  "race.elf": {
+    "id": "race.elf",
+    "name": {
+      "ko": "엘프",
+      "en": "Elf",
+      "jp": null,
+      "zh": null
+    }
+  },
+  "race.spirit": {
+    "id": "race.spirit",
+    "name": {
+      "ko": "정령",
+      "en": "Spirit",
+      "jp": null,
+      "zh": null
+    }
+  },
+  "race.ghost": {
+    "id": "race.ghost",
+    "name": {
+      "ko": "유령",
+      "en": "Ghost",
+      "jp": null,
+      "zh": null
+    }
+  },
+  "race.dragon": {
+    "id": "race.dragon",
+    "name": {
+      "ko": "용족",
+      "en": "Dragon",
+      "jp": null,
+      "zh": null
+    }
+  },
+  "race.witch": {
+    "id": "race.witch",
+    "name": {
+      "ko": "마녀",
+      "en": "Witch",
+      "jp": null,
+      "zh": null
+    }
+  },
+  "race.unknown": {
+    "id": "race.unknown",
+    "name": {
+      "ko": "종족미상",
+      "en": "Unknown",
+      "jp": null,
+      "zh": null
+    }
+  }
+}

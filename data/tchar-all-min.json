@@ -1,0 +1,1850 @@
+{
+  "char.chloe": {
+    "id": "char.chloe",
+    "datacode": "chloe",
+    "name": {
+      "ko": "클로에",
+      "en": "Chloe",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": true,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.fairy",
+      "persona": "persona.mad",
+      "role": "role.tanker",
+      "method": "method.magic",
+      "position": "position.front",
+      "color": "BB3626"
+    }
+  },
+  "char.erpin": {
+    "id": "char.erpin",
+    "datacode": "erpin",
+    "name": {
+      "ko": "에르핀",
+      "en": "Erpin",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": true,
+      "rank": 3,
+      "race": "race.fairy",
+      "persona": "persona.naive",
+      "role": "role.dealer",
+      "method": "method.magic",
+      "position": "position.back",
+      "color": "F09D7D"
+    }
+  },
+  "char.ashur": {
+    "id": "char.ashur",
+    "datacode": "ashur",
+    "name": {
+      "ko": "에슈르",
+      "en": "Ashur",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": true,
+      "rank": 3,
+      "race": "race.fairy",
+      "persona": "persona.gloomy",
+      "role": "role.dealer",
+      "method": "method.magic",
+      "position": "position.back",
+      "color": "E6838D"
+    }
+  },
+  "char.ner": {
+    "id": "char.ner",
+    "datacode": "ner",
+    "name": {
+      "ko": "네르",
+      "en": "Ner",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.fairy",
+      "persona": "persona.mad",
+      "role": "role.supporter",
+      "method": "method.magic",
+      "position": "position.front",
+      "color": "847592"
+    }
+  },
+  "char.shoupan": {
+    "id": "char.shoupan",
+    "datacode": "shoupan",
+    "name": {
+      "ko": "슈팡",
+      "en": "Shoupan",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.fairy",
+      "persona": "persona.jolly",
+      "role": "role.supporter",
+      "method": "method.magic",
+      "position": "position.back",
+      "color": "FFE182"
+    }
+  },
+  "char.kyarot": {
+    "id": "char.kyarot",
+    "datacode": "kyarot",
+    "name": {
+      "ko": "캬롯",
+      "en": "Kyarot",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.fairy",
+      "persona": "persona.naive",
+      "role": "role.supporter",
+      "method": "method.magic",
+      "position": "position.back",
+      "color": "F49C62"
+    }
+  },
+  "char.marie": {
+    "id": "char.marie",
+    "datacode": "marie",
+    "name": {
+      "ko": "마리",
+      "en": "Marie",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 2,
+      "race": "race.fairy",
+      "persona": "persona.jolly",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.middle",
+      "color": "E7BBBB"
+    }
+  },
+  "char.mayo": {
+    "id": "char.mayo",
+    "datacode": "mayo",
+    "name": {
+      "ko": "마요",
+      "en": "Mayo",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 2,
+      "race": "race.fairy",
+      "persona": "persona.mad",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.back",
+      "color": "A0B5D5"
+    }
+  },
+  "char.patula": {
+    "id": "char.patula",
+    "datacode": "patula",
+    "name": {
+      "ko": "파트라",
+      "en": "Patula",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 1,
+      "race": "race.fairy",
+      "persona": "persona.cool",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.front",
+      "color": null
+    }
+  },
+  "char.cuee": {
+    "id": "char.cuee",
+    "datacode": "cuee",
+    "name": {
+      "ko": "큐이",
+      "en": "Cuee",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 1,
+      "race": "race.fairy",
+      "persona": "persona.naive",
+      "role": "role.supporter",
+      "method": "method.magic",
+      "position": "position.middle",
+      "color": null
+    }
+  },
+  "char.carren": {
+    "id": "char.carren",
+    "datacode": "carren",
+    "name": {
+      "ko": "카렌",
+      "en": "Carren",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 1,
+      "race": "race.fairy",
+      "persona": "persona.jolly",
+      "role": "role.supporter",
+      "method": "method.magic",
+      "position": "position.back",
+      "color": null
+    }
+  },
+  "char.epica": {
+    "id": "char.epica",
+    "datacode": "epica",
+    "name": {
+      "ko": "에피카",
+      "en": "Epica",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": true,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.furry",
+      "persona": "persona.jolly",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.middle",
+      "color": "BDD2F0"
+    }
+  },
+  "char.kommy": {
+    "id": "char.kommy",
+    "datacode": "kommy",
+    "name": {
+      "ko": "코미",
+      "en": "Kommy",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.furry",
+      "persona": "persona.gloomy",
+      "role": "role.tanker",
+      "method": "method.physic",
+      "position": "position.front",
+      "color": "FFA8A7"
+    }
+  },
+  "char.tig": {
+    "id": "char.tig",
+    "datacode": "tig",
+    "name": {
+      "ko": "티그",
+      "en": "Tig",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.furry",
+      "persona": "persona.jolly",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.front",
+      "color": "9AAABF"
+    }
+  },
+  "char.rufo": {
+    "id": "char.rufo",
+    "datacode": "rufo",
+    "name": {
+      "ko": "루포",
+      "en": "Rufo",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.furry",
+      "persona": "persona.jolly",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.middle",
+      "color": "F69E72"
+    }
+  },
+  "char.momo": {
+    "id": "char.momo",
+    "datacode": "momo",
+    "name": {
+      "ko": "모모",
+      "en": "Momo",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.furry",
+      "persona": "persona.jolly",
+      "role": "role.dealer",
+      "method": "method.magic",
+      "position": "position.back",
+      "color": "D6D084"
+    }
+  },
+  "char.butter": {
+    "id": "char.butter",
+    "datacode": "butter",
+    "name": {
+      "ko": "버터",
+      "en": "Butter",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": true,
+      "rank": 3,
+      "race": "race.furry",
+      "persona": "persona.jolly",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.back",
+      "color": "EEC375"
+    }
+  },
+  "char.diana": {
+    "id": "char.diana",
+    "datacode": "디아나",
+    "name": {
+      "ko": "디아나",
+      "en": "Diana",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": true,
+      "rank": 3,
+      "race": "race.furry",
+      "persona": "persona.mad",
+      "role": "role.supporter",
+      "method": "method.magic",
+      "position": "position.middle",
+      "color": "C19079"
+    }
+  },
+  "char.kommyswim": {
+    "id": "char.kommyswim",
+    "datacode": "kommy",
+    "name": {
+      "ko": "코미(수영복)",
+      "en": "Kommy(Swimsuit)",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.furry",
+      "persona": "persona.cool",
+      "role": "role.supporter",
+      "method": "method.magic",
+      "position": "position.middle",
+      "color": "FFA8A7"
+    }
+  },
+  "char.beni": {
+    "id": "char.beni",
+    "datacode": "beni",
+    "name": {
+      "ko": "베니",
+      "en": "Beni",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": true,
+      "rank": 2,
+      "race": "race.furry",
+      "persona": "persona.jolly",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.front",
+      "color": "64443E"
+    }
+  },
+  "char.mago": {
+    "id": "char.mago",
+    "datacode": "mago",
+    "name": {
+      "ko": "마고",
+      "en": "Mago",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 2,
+      "race": "race.furry",
+      "persona": "persona.naive",
+      "role": "role.supporter",
+      "method": "method.magic",
+      "position": "position.middle",
+      "color": "B6BBCB"
+    }
+  },
+  "char.bana": {
+    "id": "char.bana",
+    "datacode": "bana",
+    "name": {
+      "ko": "바나",
+      "en": "Bana",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 2,
+      "race": "race.furry",
+      "persona": "persona.jolly",
+      "role": "role.supporter",
+      "method": "method.physic",
+      "position": "position.back",
+      "color": "EDB983"
+    }
+  },
+  "char.mynx": {
+    "id": "char.mynx",
+    "datacode": "mynx",
+    "name": {
+      "ko": "밍스",
+      "en": "Mynx",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 1,
+      "race": "race.furry",
+      "persona": "persona.jolly",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.front",
+      "color": null
+    }
+  },
+  "char.chopi": {
+    "id": "char.chopi",
+    "datacode": "chopi",
+    "name": {
+      "ko": "쵸피",
+      "en": "Chopi",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 1,
+      "race": "race.furry",
+      "persona": "persona.gloomy",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.middle",
+      "color": null
+    }
+  },
+  "char.yumimi": {
+    "id": "char.yumimi",
+    "datacode": "yumimi",
+    "name": {
+      "ko": "유미미",
+      "en": "Yumimi",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 1,
+      "race": "race.furry",
+      "persona": "persona.mad",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.back",
+      "color": null
+    }
+  },
+  "char.ed": {
+    "id": "char.ed",
+    "datacode": "ed",
+    "name": {
+      "ko": "이드",
+      "en": "Ed",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": true,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.elf",
+      "persona": "persona.cool",
+      "role": "role.tanker",
+      "method": "method.magic",
+      "position": "position.front",
+      "color": "808191"
+    }
+  },
+  "char.nata": {
+    "id": "char.nata",
+    "datacode": "nata",
+    "name": {
+      "ko": "나타",
+      "en": "LLEL-S",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": false,
+      "isEldain": null,
+      "hasAside": null,
+      "rank": null,
+      "race": "race.elf",
+      "persona": null,
+      "role": null,
+      "method": null,
+      "position": null,
+      "color": "635966"
+    }
+  },
+  "char.renewa": {
+    "id": "char.renewa",
+    "datacode": "renewa",
+    "name": {
+      "ko": "리뉴아",
+      "en": "Renewa",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": false,
+      "isEldain": null,
+      "hasAside": null,
+      "rank": null,
+      "race": "race.elf",
+      "persona": null,
+      "role": null,
+      "method": null,
+      "position": null,
+      "color": "E8D7B7"
+    }
+  },
+  "char.renewaawaken": {
+    "id": "char.renewaawaken",
+    "datacode": "renewaawaken",
+    "name": {
+      "ko": "리뉴아",
+      "en": "Renewa",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": true,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.elf",
+      "persona": "persona.mad",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.middle",
+      "color": "43475D"
+    }
+  },
+  "char.elena": {
+    "id": "char.elena",
+    "datacode": "elena",
+    "name": {
+      "ko": "엘레나",
+      "en": "Elena",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.elf",
+      "persona": "persona.cool",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.middle",
+      "color": "DA9798"
+    }
+  },
+  "char.haley": {
+    "id": "char.haley",
+    "datacode": "haley",
+    "name": {
+      "ko": "헤일리",
+      "en": "Haley",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.elf",
+      "persona": "persona.naive",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.middle",
+      "color": "E83B92"
+    }
+  },
+  "char.risty": {
+    "id": "char.risty",
+    "datacode": "risty",
+    "name": {
+      "ko": "리스티",
+      "en": "Risty",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.elf",
+      "persona": "persona.gloomy",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.back",
+      "color": "AE6D7F"
+    }
+  },
+  "char.gloveai": {
+    "id": "char.gloveai",
+    "datacode": "gloveai",
+    "name": {
+      "ko": "글러브",
+      "en": "Glove",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": false,
+      "isEldain": null,
+      "hasAside": null,
+      "rank": null,
+      "race": "race.elf",
+      "persona": null,
+      "role": null,
+      "method": null,
+      "position": null,
+      "color": "A1AD88"
+    }
+  },
+  "char.canna": {
+    "id": "char.canna",
+    "datacode": "canna",
+    "name": {
+      "ko": "칸나",
+      "en": "Canna",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.elf",
+      "persona": "persona.jolly",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.back",
+      "color": "B77148"
+    }
+  },
+  "char.hilde": {
+    "id": "char.hilde",
+    "datacode": "hilde",
+    "name": {
+      "ko": "힐데",
+      "en": "Hilde",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.elf",
+      "persona": "persona.gloomy",
+      "role": "role.supporter",
+      "method": "method.magic",
+      "position": "position.middle",
+      "color": "CCE993"
+    }
+  },
+  "char.amelia": {
+    "id": "char.amelia",
+    "datacode": "amelia",
+    "name": {
+      "ko": "아멜리아",
+      "en": "Amelia",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": true,
+      "rank": 3,
+      "race": "race.elf",
+      "persona": "persona.cool",
+      "role": "role.supporter",
+      "method": "method.physic",
+      "position": "position.back",
+      "color": "926F6E"
+    }
+  },
+  "char.rohne": {
+    "id": "char.rohne",
+    "datacode": "rohne",
+    "name": {
+      "ko": "로네",
+      "en": "Rohne",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 2,
+      "race": "race.elf",
+      "persona": "persona.naive",
+      "role": "role.tanker",
+      "method": "method.physic",
+      "position": "position.front",
+      "color": "C1B4B7"
+    }
+  },
+  "char.maestro": {
+    "id": "char.maestro",
+    "datacode": "maestromk2",
+    "name": {
+      "ko": "마에스트로 2호",
+      "en": "Maestro MK.2",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": true,
+      "rank": 2,
+      "race": "race.elf",
+      "persona": "persona.mad",
+      "role": "role.tanker",
+      "method": "method.physic",
+      "position": "position.front",
+      "color": "35B7AE"
+    }
+  },
+  "char.festa": {
+    "id": "char.festa",
+    "datacode": "festa",
+    "name": {
+      "ko": "페스타",
+      "en": "Festa",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": true,
+      "rank": 2,
+      "race": "race.elf",
+      "persona": "persona.gloomy",
+      "role": "role.supporter",
+      "method": "method.physic",
+      "position": "position.front",
+      "color": "EC7A84"
+    }
+  },
+  "char.allet": {
+    "id": "char.allet",
+    "datacode": "allet",
+    "name": {
+      "ko": "알레트",
+      "en": "Allet",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 1,
+      "race": "race.elf",
+      "persona": "persona.naive",
+      "role": "role.tanker",
+      "method": "method.physic",
+      "position": "position.front",
+      "color": null
+    }
+  },
+  "char.lazy": {
+    "id": "char.lazy",
+    "datacode": "lazy",
+    "name": {
+      "ko": "레이지",
+      "en": "Lazy",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 1,
+      "race": "race.elf",
+      "persona": "persona.cool",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.back",
+      "color": null
+    }
+  },
+  "char.taida": {
+    "id": "char.taida",
+    "datacode": "taida",
+    "name": {
+      "ko": "타이다",
+      "en": "Taida",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 1,
+      "race": "race.elf",
+      "persona": "persona.jolly",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.back",
+      "color": null
+    }
+  },
+  "char.ui": {
+    "id": "char.ui",
+    "datacode": "ui",
+    "name": {
+      "ko": "우이",
+      "en": "Ui",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": true,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.spirit",
+      "persona": "persona.jolly",
+      "role": "role.supporter",
+      "method": "method.magic",
+      "position": "position.middle",
+      "color": "FFDB5B"
+    }
+  },
+  "char.blanchet": {
+    "id": "char.blanchet",
+    "datacode": "blanchet",
+    "name": {
+      "ko": "블랑셰",
+      "en": "Blanchet",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.spirit",
+      "persona": "persona.gloomy",
+      "role": "role.dealer",
+      "method": "method.magic",
+      "position": "position.middle",
+      "color": "2660E1"
+    }
+  },
+  "char.sylla": {
+    "id": "char.sylla",
+    "datacode": "sylla",
+    "name": {
+      "ko": "실라",
+      "en": "Sylla",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.spirit",
+      "persona": "persona.cool",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.back",
+      "color": "C9DBBA"
+    }
+  },
+  "char.naia": {
+    "id": "char.naia",
+    "datacode": "naia",
+    "name": {
+      "ko": "나이아",
+      "en": "Naia",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.spirit",
+      "persona": "persona.naive",
+      "role": "role.supporter",
+      "method": "method.magic",
+      "position": "position.middle",
+      "color": "91D2EB"
+    }
+  },
+  "char.meluna": {
+    "id": "char.meluna",
+    "datacode": "meluna",
+    "name": {
+      "ko": "멜루나",
+      "en": "Meluna",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.spirit",
+      "persona": "persona.cool",
+      "role": "role.supporter",
+      "method": "method.magic",
+      "position": "position.back",
+      "color": "BCD190"
+    }
+  },
+  "char.bigwood": {
+    "id": "char.bigwood",
+    "datacode": "bigwood",
+    "name": {
+      "ko": "빅우드",
+      "en": "Bigwood",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": true,
+      "rank": 2,
+      "race": "race.spirit",
+      "persona": "persona.naive",
+      "role": "role.tanker",
+      "method": "method.physic",
+      "position": "position.front",
+      "color": "97A262"
+    }
+  },
+  "char.ifrit": {
+    "id": "char.ifrit",
+    "datacode": "ifrit",
+    "name": {
+      "ko": "이프리트",
+      "en": "Ifrit",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 2,
+      "race": "race.spirit",
+      "persona": "persona.mad",
+      "role": "role.dealer",
+      "method": "method.magic",
+      "position": "position.front",
+      "color": "EE5C3A"
+    }
+  },
+  "char.jubee": {
+    "id": "char.jubee",
+    "datacode": "jubee",
+    "name": {
+      "ko": "쥬비",
+      "en": "Jubee",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 2,
+      "race": "race.spirit",
+      "persona": "persona.jolly",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.middle",
+      "color": "D89E5A"
+    }
+  },
+  "char.gabia": {
+    "id": "char.gabia",
+    "datacode": "gabia",
+    "name": {
+      "ko": "가비아",
+      "en": "Gabia",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 2,
+      "race": "race.spirit",
+      "persona": "persona.naive",
+      "role": "role.supporter",
+      "method": "method.magic",
+      "position": "position.middle",
+      "color": "8A5350"
+    }
+  },
+  "char.xion": {
+    "id": "char.xion",
+    "datacode": "xxionx",
+    "name": {
+      "ko": "시온 더 다크불릿",
+      "en": "Xion the Darkbullet",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": true,
+      "hasAside": true,
+      "rank": 3,
+      "race": "race.ghost",
+      "persona": "persona.gloomy",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.back",
+      "color": "4C76AD"
+    }
+  },
+  "char.selline": {
+    "id": "char.selline",
+    "datacode": "selline",
+    "name": {
+      "ko": "셀리네",
+      "en": "Selline",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.ghost",
+      "persona": "persona.jolly",
+      "role": "role.tanker",
+      "method": "method.magic",
+      "position": "position.front",
+      "color": "F7AFBB"
+    }
+  },
+  "char.barong": {
+    "id": "char.barong",
+    "datacode": "barong",
+    "name": {
+      "ko": "바롱",
+      "en": "Barong",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.ghost",
+      "persona": "persona.cool",
+      "role": "role.dealer",
+      "method": "method.magic",
+      "position": "position.front",
+      "color": "878682"
+    }
+  },
+  "char.shady": {
+    "id": "char.shady",
+    "datacode": "shady",
+    "name": {
+      "ko": "셰이디",
+      "en": "Shady",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.ghost",
+      "persona": "persona.mad",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.front",
+      "color": "9DBAC1"
+    }
+  },
+  "char.rim": {
+    "id": "char.rim",
+    "datacode": "rim",
+    "name": {
+      "ko": "림",
+      "en": "Rim",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.ghost",
+      "persona": "persona.gloomy",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.front",
+      "color": "AB474A"
+    }
+  },
+  "char.alice": {
+    "id": "char.alice",
+    "datacode": "alice",
+    "name": {
+      "ko": "앨리스",
+      "en": "Alice",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.ghost",
+      "persona": "persona.mad",
+      "role": "role.dealer",
+      "method": "method.magic",
+      "position": "position.middle",
+      "color": "CAA4DD"
+    }
+  },
+  "char.lethe": {
+    "id": "char.lethe",
+    "datacode": "lethe",
+    "name": {
+      "ko": "레테",
+      "en": "Lethe",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 2,
+      "race": "race.ghost",
+      "persona": "persona.cool",
+      "role": "role.tanker",
+      "method": "method.physic",
+      "position": "position.front",
+      "color": "A8BCC7"
+    }
+  },
+  "char.speaki": {
+    "id": "char.speaki",
+    "datacode": "speaki",
+    "name": {
+      "ko": "스피키",
+      "en": "Speaki",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 2,
+      "race": "race.ghost",
+      "persona": "persona.naive",
+      "role": "role.supporter",
+      "method": "method.magic",
+      "position": "position.back",
+      "color": "71566C"
+    }
+  },
+  "char.espi": {
+    "id": "char.espi",
+    "datacode": "espi",
+    "name": {
+      "ko": "에스피",
+      "en": "Espi",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": true,
+      "rank": 2,
+      "race": "race.ghost",
+      "persona": "persona.cool",
+      "role": "role.supporter",
+      "method": "method.magic",
+      "position": "position.back",
+      "color": "D4B9BA"
+    }
+  },
+  "char.veroo": {
+    "id": "char.veroo",
+    "datacode": "veroo",
+    "name": {
+      "ko": "베루",
+      "en": "Veroo",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 1,
+      "race": "race.ghost",
+      "persona": "persona.gloomy",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.middle",
+      "color": null
+    }
+  },
+  "char.sari": {
+    "id": "char.sari",
+    "datacode": "sari",
+    "name": {
+      "ko": "사리",
+      "en": "Sari",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 1,
+      "race": "race.ghost",
+      "persona": "persona.naive",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.middle",
+      "color": null
+    }
+  },
+  "char.maison": {
+    "id": "char.maison",
+    "datacode": "maison",
+    "name": {
+      "ko": "메죵",
+      "en": "Maison",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 1,
+      "race": "race.ghost",
+      "persona": "persona.mad",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.back",
+      "color": null
+    }
+  },
+  "char.vivi": {
+    "id": "char.vivi",
+    "datacode": "vivi",
+    "name": {
+      "ko": "비비",
+      "en": "Vivi",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": true,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.dragon",
+      "persona": "persona.naive",
+      "role": "role.tanker",
+      "method": "method.magic",
+      "position": "position.front",
+      "color": "B8AFB1"
+    }
+  },
+  "char.rude": {
+    "id": "char.rude",
+    "datacode": "rude",
+    "name": {
+      "ko": "루드",
+      "en": "Rude",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.dragon",
+      "persona": "persona.jolly",
+      "role": "role.tanker",
+      "method": "method.physic",
+      "position": "position.front",
+      "color": "C75B5C"
+    }
+  },
+  "char.leets": {
+    "id": "char.leets",
+    "datacode": "leets",
+    "name": {
+      "ko": "리츠",
+      "en": "Leets",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.dragon",
+      "persona": "persona.mad",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.front",
+      "color": "8F868A"
+    }
+  },
+  "char.kidian": {
+    "id": "char.kidian",
+    "datacode": "kidian",
+    "name": {
+      "ko": "키디언",
+      "en": "Kidian",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.dragon",
+      "persona": "persona.gloomy",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.front",
+      "color": "604E65"
+    }
+  },
+  "char.sist": {
+    "id": "char.sist",
+    "datacode": "sist",
+    "name": {
+      "ko": "시스트",
+      "en": "Sist",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.dragon",
+      "persona": "persona.mad",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.middle",
+      "color": "BD8CB7"
+    }
+  },
+  "char.jade": {
+    "id": "char.jade",
+    "datacode": "jade",
+    "name": {
+      "ko": "제이드",
+      "en": "Jade",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.dragon",
+      "persona": "persona.cool",
+      "role": "role.dealer",
+      "method": "method.magic",
+      "position": "position.middle",
+      "color": "85A491"
+    }
+  },
+  "char.daya": {
+    "id": "char.daya",
+    "datacode": "daya",
+    "name": {
+      "ko": "다야",
+      "en": "Daya",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.dragon",
+      "persona": "persona.naive",
+      "role": "role.dealer",
+      "method": "method.magic",
+      "position": "position.back",
+      "color": "A8BBC8"
+    }
+  },
+  "char.silphir": {
+    "id": "char.silphir",
+    "datacode": "silphir",
+    "name": {
+      "ko": "실피르",
+      "en": "Silphir",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 2,
+      "race": "race.dragon",
+      "persona": "persona.gloomy",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.middle",
+      "color": "8AA9CF"
+    }
+  },
+  "char.goldy": {
+    "id": "char.goldy",
+    "datacode": "goldy",
+    "name": {
+      "ko": "골디",
+      "en": "Goldy",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": false,
+      "isEldain": null,
+      "hasAside": null,
+      "rank": null,
+      "race": "race.dragon",
+      "persona": null,
+      "role": null,
+      "method": null,
+      "position": null,
+      "color": "D09D4B"
+    }
+  },
+  "char.aya": {
+    "id": "char.aya",
+    "datacode": "aya",
+    "name": {
+      "ko": "아야",
+      "en": "Aya",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": true,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.witch",
+      "persona": "persona.cool",
+      "role": "role.dealer",
+      "method": "method.magic",
+      "position": "position.middle",
+      "color": "F1F8FF"
+    }
+  },
+  "char.velvet": {
+    "id": "char.velvet",
+    "datacode": "velvet",
+    "name": {
+      "ko": "벨벳",
+      "en": "Velvet",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.witch",
+      "persona": "persona.cool",
+      "role": "role.tanker",
+      "method": "method.physic",
+      "position": "position.front",
+      "color": "5C4F62"
+    }
+  },
+  "char.fricle": {
+    "id": "char.fricle",
+    "datacode": "fricle",
+    "name": {
+      "ko": "프리클",
+      "en": "Fricle",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.witch",
+      "persona": "persona.cool",
+      "role": "role.dealer",
+      "method": "method.magic",
+      "position": "position.middle",
+      "color": "675359"
+    }
+  },
+  "char.rollett": {
+    "id": "char.rollett",
+    "datacode": "rollett",
+    "name": {
+      "ko": "롤렛",
+      "en": "Rollett",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.witch",
+      "persona": "persona.mad",
+      "role": "role.dealer",
+      "method": "method.magic",
+      "position": "position.back",
+      "color": "C65A66"
+    }
+  },
+  "char.belita": {
+    "id": "char.belita",
+    "datacode": "belita",
+    "name": {
+      "ko": "벨리타",
+      "en": "Belita",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.witch",
+      "persona": "persona.mad",
+      "role": "role.dealer",
+      "method": "method.magic",
+      "position": "position.back",
+      "color": "D3A9A9"
+    }
+  },
+  "char.posher": {
+    "id": "char.posher",
+    "datacode": "posher",
+    "name": {
+      "ko": "포셔",
+      "en": "Posher",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.witch",
+      "persona": "persona.gloomy",
+      "role": "role.supporter",
+      "method": "method.magic",
+      "position": "position.back",
+      "color": "D67B8F"
+    }
+  },
+  "char.picora": {
+    "id": "char.picora",
+    "datacode": "picora",
+    "name": {
+      "ko": "피코라",
+      "en": "Picora",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 3,
+      "race": "race.witch",
+      "persona": "persona.cool",
+      "role": "role.supporter",
+      "method": "method.magic",
+      "position": "position.back",
+      "color": "8DC9CA"
+    }
+  },
+  "char.levi": {
+    "id": "char.levi",
+    "datacode": "levi",
+    "name": {
+      "ko": "레비",
+      "en": "Levi",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": true,
+      "isEldain": false,
+      "hasAside": false,
+      "rank": 2,
+      "race": "race.witch",
+      "persona": "persona.gloomy",
+      "role": "role.dealer",
+      "method": "method.physic",
+      "position": "position.middle",
+      "color": "A0385A"
+    }
+  },
+  "char.barie": {
+    "id": "char.barie",
+    "datacode": "barie",
+    "name": {
+      "ko": "바리에",
+      "en": "Barie",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": false,
+      "isEldain": null,
+      "hasAside": null,
+      "rank": null,
+      "race": "race.witch",
+      "persona": null,
+      "role": null,
+      "method": null,
+      "position": null,
+      "color": "973B58"
+    }
+  },
+  "char.player": {
+    "id": "char.player",
+    "datacode": null,
+    "name": {
+      "ko": "교주",
+      "en": "Player",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": false,
+      "isEldain": null,
+      "hasAside": null,
+      "rank": null,
+      "race": "race.unknown",
+      "persona": null,
+      "role": null,
+      "method": null,
+      "position": null,
+      "color": "FBAC26"
+    }
+  },
+  "char.youngchun": {
+    "id": "char.youngchun",
+    "datacode": "youngchun",
+    "name": {
+      "ko": "영춘",
+      "en": "Youngchun",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": false,
+      "isEldain": null,
+      "hasAside": null,
+      "rank": null,
+      "race": "race.unknown",
+      "persona": null,
+      "role": null,
+      "method": null,
+      "position": null,
+      "color": "768964"
+    }
+  },
+  "char.guest": {
+    "id": "char.guest",
+    "datacode": null,
+    "name": {
+      "ko": "게스트",
+      "en": "Guest",
+      "jp": null,
+      "zh": null
+    },
+    "data": {
+      "isPlayable": false,
+      "isEldain": null,
+      "hasAside": null,
+      "rank": null,
+      "race": "race.unknown",
+      "persona": null,
+      "role": null,
+      "method": null,
+      "position": null,
+      "color": "A1AD88"
+    }
+  }
+}
